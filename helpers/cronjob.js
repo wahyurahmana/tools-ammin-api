@@ -8,7 +8,7 @@ const redis = new Redis({
   db: 0,
 });
 
-const task = cron.schedule('30 8 * * *', () =>  {
+const task = cron.schedule('30 8 * * *', async () =>  {
   await redis.del("emas")
   console.log("rediskey emas dihapus")
 })
