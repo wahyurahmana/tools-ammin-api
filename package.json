@@ -19,7 +19,12 @@
     "moment": "^2.29.4",
     "node-cron": "^3.0.2",
     "puppeteer": "^16.1.1",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.4.23",
+    "@ilovepdf/ilovepdf-nodejs": "^0.2.1",
+    "express-fileupload": "^1.4.0",
+    "nanoid": "^3.3.4",
+    "pdf2pic": "^2.1.4",
+    "sharp": "^0.31.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"

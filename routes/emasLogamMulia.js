@@ -1,7 +1,7 @@
 const router = require("express").Router()
-const Controller = require("../controllers/emas_LogamMulia/emas.js")
+const emas = require("../controllers/emasLogamMulia/emas.js")
 
-router.get("/", Controller.emas)
+router.get("/", emas)
 
 
 module.exports =router

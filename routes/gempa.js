@@ -1,6 +1,6 @@
 const router = require("express").Router()
-const Controller = require("../controllers/gempa/gempa.js")
+const gempa = require("../controllers/gempa/gempa.js")
 
-router.get("/", Controller.gempa)
+router.get("/", gempa)
 
 module.exports =router
