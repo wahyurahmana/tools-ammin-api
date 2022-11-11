@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const Redis = require("ioredis");
 const redis = new Redis({
   port: 10687, 
-  host: "redis-10687.c292.ap-southeast-1-1.ec2.cloud.redislabs.com",
+  host: `${process.env.HOST_REDIS}`,
   username: "default", 
   password: `${process.env.PASSWORD_REDIS}`,
   db: 0,
